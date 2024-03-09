@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+.container{
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    
+    /* z-index: -1; */
+}
+
+.background  {
+    position: absolute; 
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+
+}
+
+.heading{
+    position: absolute;
+    top: 10rem;
+    font-size: 10rem;
+    letter-spacing: 4px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #174a99;
+    text-shadow: 2px 2px 6px white;
+    
+}
+
+section{
+    background-color: #2e5128;
+    color: aliceblue;
+    padding: 5rem 0;
+}
+.secHeading{
+    font-size: 5rem;
+    padding: 0 10rem;
+}
+.text{
+    font-size: 1.5rem;
+    padding: 0 10rem;
+    margin: 5rem 0;
+}
+
+.bg{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;;
+}
+
+.bg1{
+    background-image: url(./assest/image1.png);
+}
+
+.bg2{
+    background-image: url(./assest/image2.png);
+}
+.bg3{
+    background-image: url(./assest/image3.png);
+}
+
+.desc{
+    position: absolute;
+    padding: 0.5 rem 2.5rem;
+    background-color: #2e5128;
+    top: 90.9%;
+    color: beige;
+    
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+#foter {
+    text-align: center;
+    background-color: #2e5128;
+    color: aliceblue;
+    padding: 2rem;
+
+}
+
